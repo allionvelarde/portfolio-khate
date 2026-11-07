@@ -143,6 +143,13 @@ function GlowingGirlyCoreMesh({ wireframe }: { wireframe: boolean }) {
 }
 
 export default function Home() {
+
+const [currentYear, setCurrentYear] = useState<number>(2026);
+
+useEffect(() => {
+  setCurrentYear(new Date().getFullYear());
+}, []);
+  
   const [activeTab, setActiveTab] = useState<"overview" | "design" | "snippets">("overview");
   const [copiedEmail, setCopiedEmail] = useState(false);
   const [wireframeMode, setWireframeMode] = useState(true);
