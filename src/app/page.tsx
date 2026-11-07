@@ -685,7 +685,7 @@ export default function Home() {
 
         {/* FOOTER */}
         <footer className="pt-8 border-t border-rose-100 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs font-mono text-rose-400">
-          <p>© {new Date().getFullYear()} Khate Villalon. Built with Next.js, React, & Three.js.</p>
+          <p>© {currentYear} Khate Villalon. Built with Next.js, React, & Three.js.</p>
           <div className="flex items-center gap-4">
             <a href="https://instagram.com" target="_blank" rel="noreferrer" className="hover:text-rose-600 transition-colors">Instagram</a>
             <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="hover:text-rose-600 transition-colors">LinkedIn</a>
